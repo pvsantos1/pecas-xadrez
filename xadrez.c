@@ -27,5 +27,16 @@ int main() {
         i++;
     } while (i < 8);
     
+    int movimentoCavaloBaixo = 2, movimentoCavaloEsquerda = 1;
+    // Movimento do Cavalo - 2 casas para baixo e uma para esquerda (usando loops aninhados)
+    printf("Movimento do Cavalo:\n");
+    for (int i = 0; i < movimentoCavaloBaixo; i++) {
+        printf("Baixo\n");
+        for (int j = 0; j < movimentoCavaloEsquerda; j++) {
+            if (i == movimentoCavaloBaixo - 1) {
+                printf("Esquerda\n");
+            }
+        }
+    }
     return 0;
 }
