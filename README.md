@@ -1,1 +1,1 @@
-# pe-as-xadrez
+# pecas-xadrez
